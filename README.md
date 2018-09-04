@@ -10,16 +10,30 @@ The study carried out using ProGenDec_BLSTM used data from the England Genomics'
 ## Usage
 
 ProGenDec_BLSTM.py is the python script to run, and its configuration parameters can either be modified in Parameters.py or in the command line, being these the available parameters:
+
 -mode [int]: the data encoding to use. 0 correspond to simple sequences, 1 to window encoding, and 2 to one-hot encoding.
+
 -genes True: to use gene sequences. It uses protein sequences by default.
+
 -conv True: to use the hybrid model. It uses the BLSTM by default.
+
 -seqLen [int]: sets the length of the sequences.
+
 -window [int]: sets the size of the window (only useful for the window data preprocessing).
+
 -lstm [int]: sets the number of cells of each LSTM layer.
+
 -timedist [int]: sets the number of nodes of the time distributed dense layer.
+
 -dropout [float]: dropout value to apply.
+
 -recdropout [float]: recurrent dropout to apply in the LSTM layer.
+
 -lr [float]: learning rate.
+
 -batch [int]: size of the batches for training.
+
 -epochs [int]: number of epochs to train on.
--test [run ID]: if present, the program will be in test only mode, so training won’t happen. It will look into the run folder with the name of the ID passed, and test the saved model with the best weights from the training process, using the test data.
+
+-test [run ID]: if present, the program will be in test only mode, so training won’t happen. It will look into the run folder 
+with the name of the ID passed, and test the saved model with the best weights from the training process, using the test data.
