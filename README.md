@@ -39,5 +39,6 @@ ProGenDec_BLSTM.py is the python script to run, and its configuration parameters
 with the name of the ID passed, and test the saved model with the best weights from the training process, using the test data.
 
 # Credits
--Guillermo Castillo García
--Juan Antonio Botía Blaya
+**_Guillermo Castillo García_**
+
+**_Juan Antonio Botía Blaya_**
