@@ -38,6 +38,6 @@ ProGenDec_BLSTM.py is the python script to run, and its configuration parameters
 -test [run ID]: if present, the program will be in test only mode, so training won’t happen. It will look into the run folder 
 with the name of the ID passed, and test the saved model with the best weights from the training process, using the test data.
 
-#Credits
+# Credits
 -Guillermo Castillo García
 -Juan Antonio Botía Blaya
